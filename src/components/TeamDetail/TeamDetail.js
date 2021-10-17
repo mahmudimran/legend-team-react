@@ -66,16 +66,13 @@ const TeamDetail = () => {
                     <a className="twitter" href='http://twitter.com/'><FontAwesomeIcon icon={faTwitter} target="_blank" /></a>
                     <a className="website" href='www.avfc.co.uk'><FontAwesomeIcon icon={faGlobe} target="_blank" /></a>
                     <a className="youtube" href='www.youtube.com/user/avfcofficial'><FontAwesomeIcon icon={faYoutube} target="_blank" /></a>
-                    <a className="github" href="https://github.com/mahmudimran?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-
+                    <a className="github" href="https://github.com/mahmudimran?tab=repositories"><FontAwesomeIcon icon={faGithub}  target="_blank"/></a>
                 </div>
                 {
                     soccerMatch.map(match => <Match match={match} key={match.idAwayTeam}></Match>)
                 }
             </Container>
-
         </div>
-
     );
 };
 

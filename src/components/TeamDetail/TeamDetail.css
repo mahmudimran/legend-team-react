@@ -1,0 +1,43 @@
+.details-container {
+    margin-top: 25px;
+    box-shadow:  0 2px 2px 0 #08080800;
+    background-color: #0069D9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.content p,h3{
+    margin-left: 18px;
+    margin-bottom: 8px;
+}
+.social-media a {
+    font-size: 18px;
+    display: inline-block;
+    background: #47b2e4;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.social-media .twitter{
+    background-color: #00abe3;
+    color: white;
+}
+.social-media .website{
+    background-color: #1683dc;
+    color: white;
+}
+.social-media .youtube{
+    background-color: rgb(241, 25, 25);
+    color: white;
+}
+.social-media .github{
+    background-color:black;
+    color: white;
+}
